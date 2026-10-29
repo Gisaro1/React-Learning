@@ -20,10 +20,25 @@ function MainContent(){
     </div>
   )
 }
+function WhyExcited(){
+  return(
+    <div>
+      <ul>
+        <li>
+          Because of TheGym
+        </li>
+        <li>
+          Because I'll be using it in future
+        </li>
+      </ul>
+    </div>
+  )
+}
 function App() {
   return (
     <>
       <MainContent></MainContent>
+      <WhyExcited></WhyExcited>
     </>
   )
 }
