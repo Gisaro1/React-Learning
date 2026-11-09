@@ -1,9 +1,9 @@
 import './App.css'
-import MainContent from './MainContent'
+import Learn from '../src/Learn'
 function App() {
   return (
     <div>
-      <MainContent></MainContent>
+      <Learn></Learn>
     </div>
   )
 }
